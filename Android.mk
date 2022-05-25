@@ -1,5 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := GsfProxy
 LOCAL_SRC_FILES := com.google.android.gsf-8.apk
